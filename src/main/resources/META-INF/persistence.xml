@@ -18,7 +18,7 @@
             <!--логин пользователя бд-->
             <property name="jakarta.persistence.jdbc.user" value="postgres"/>
             <!-- пароль пользователя бд-->
-            <property name="jakarta.persistence.jdbc.password" value="YO_RAP"/>
+            <property name="jakarta.persistence.jdbc.password" value="yo_rap"/>
             <!--используемый драйвер-->
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
 

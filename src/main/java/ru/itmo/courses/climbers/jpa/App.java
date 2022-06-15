@@ -99,7 +99,7 @@ public class App {
         manager.getTransaction().commit();
 
 
-        Group firstGroup = new Group(true,gora);
+        Group firstGroup = new Group();
         firstGroup.addToGroup(climber);
         firstGroup.addToGroup(climber1);
         firstGroup.addToGroup(climber2);

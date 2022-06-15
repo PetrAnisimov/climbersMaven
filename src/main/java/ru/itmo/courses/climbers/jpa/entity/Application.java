@@ -21,7 +21,7 @@ public class Application {
         climber2.setAddressOfClimber("Горки 4");
 
 
-        Group group = new Group(true,mountain1);
+        Group group = new Group();
         group.addToGroup(climber);
         group.addToGroup(climber1);
         group.addToGroup(climber2);
@@ -33,7 +33,7 @@ public class Application {
         mountain.setCountry("Грузия");
 
 
-        Group group1 = new Group(true,mountain1);
+        Group group1 = new Group();
         group.addToGroup(climber);
         group.addToGroup(climber1);
         System.out.println(group1.toString());

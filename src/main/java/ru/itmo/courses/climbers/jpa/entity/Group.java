@@ -42,10 +42,10 @@ public class Group extends BaseId {
     //@Column(name = "climber_list")
     private Climber[] climbers = new Climber[3];
 
-    public Group(boolean isOpentoAdd, Mountain mountain) {
-        this.isOpentoAdd = isOpentoAdd;
-        this.mountain = mountain;
-    }
+//    public Group(boolean isOpentoAdd, Mountain mountain) {
+//        this.isOpentoAdd = isOpentoAdd;
+//        this.mountain = mountain;
+//    }
 
 
     public void addToGroup(Climber climber) {
