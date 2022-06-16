@@ -9,6 +9,8 @@
         <class>ru.itmo.courses.climbers.jpa.entity.Mountain</class>
         <class>ru.itmo.courses.climbers.jpa.entity.Climber</class>
         <class>ru.itmo.courses.climbers.jpa.entity.Group</class>
+        <class>ru.itmo.courses.climbers.jpa.entity.entityBuilder.ClimberBuilder</class>
+
 
 
 
